@@ -1,0 +1,190 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: transparent;
+    main{
+        background-color: transparent;
+        .container{
+            display: flex;
+            background-color: transparent;
+            border-radius: 35px;
+            overflow: hidden;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            .section1.section2{
+                display: flex;
+                flex-direction: column;
+            }
+            .section1{
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+                background: linear-gradient(
+                    hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+                height: 29rem;
+                width: 20rem;
+                border-radius: 35px;
+                text-align: center;
+                overflow: hidden;
+                p{
+                    font-family: 'Hanken Grotesk', sans-serif;
+                }
+                :nth-child(1){
+                    color: hsl(241, 100%, 89%);
+                    font-weight: 700;
+                    letter-spacing: 0.7px;
+                    font-size: 23px;
+                }
+                :nth-child(3){
+                    color: hsl(221, 100%, 96%);
+                    font-weight: 700;
+                    font-size: 30px;
+                    margin-top: 1.6rem;
+                }
+                :nth-child(4){
+                    color: hsl(241, 100%, 89%);
+                    font-weight: 500;
+                    margin-top: -1.5rem;
+                }
+                .circle{
+                    margin-left: 4.3rem;
+                    margin-top: 1.7rem;
+                    text-align: center;
+                    border-radius: 50%;
+                    height: 12rem;
+                    width: 12rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                    background:linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+                    :nth-child(1){
+                        color: hsl(221, 100%, 96%);
+                        font-size: 70px;
+                        font-weight: 800;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        flex-direction: column;
+                        span{
+                            font-size: 15px;
+                            margin-top: -0.7rem;
+                            letter-spacing: 0px;
+                            font-weight: 500;
+                            color: hsl(241, 100%, 89%);
+                        }
+                    }
+                    
+                }
+            }
+            .section2{
+                background-color: white;
+                height: 31rem;
+                width: 22rem;
+                border-top-right-radius: 35px;
+                border-bottom-right-radius: 35px;
+                display: flex;
+                align-items: center;
+                text-align: left;
+                justify-content: center;
+                flex-direction: column;
+                button{
+                    width: 16rem;
+                    height: 3.25rem;
+                    border-radius: 50px;
+                    margin-top: 1rem;
+                    background-color:hsla(241, 72%, 46%);
+                    cursor: pointer;
+                    color: white;
+                    font-family: 'Hanken Grotesk', sans-serif;
+                    font-size: 18px;
+                    border: 1px solid transparent;
+                    outline: none;
+                    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+                }
+                .header{
+                    font-family: 'Hanken Grotesk', sans-serif;
+                    text-align: left;
+                    float: left;
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin-left: -10rem;
+                }
+                .box1,.box2,.box3,.box4{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    // outline: 1px solid black;
+                    width: 14rem;
+                    font-family: 'Hanken Grotesk', sans-serif;
+                    padding: 0rem 1rem;
+                    border-radius: 7px;
+                    :nth-child(1){
+                        color: gray;
+                        margin-left: .1rem;
+                        font-weight: 500;
+                    }
+                    p{
+                        font-weight: 700;
+                    }
+                }
+                .box2,.box3,.box1{
+                    margin-bottom: 1rem;
+                }
+                .cont1,.cont2,.cont3,.cont4{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    p{
+                        margin-left: 0.5rem;
+                    }
+                }
+                .cont1{
+                    p{
+                        color:hsl(0, 100%, 67%);
+                    }
+                }
+                .cont2{
+                    p{
+                        color:hsl(39, 100%, 56%);
+                    }
+                }
+                .cont3{
+                    p{
+                        color:hsl(166, 100%, 37%);
+                    }
+                }
+                .cont4{
+                    p{
+                        color:hsl(234, 85%, 45%);
+                    }
+                }
+                .box1{
+                    background-color:hsl(0, 100%, 67%,0.2);
+                    p{
+                        color:hsl(0, 100%, 67%);
+                    }
+                }
+                .box2{
+                    background-color: hsl(39, 100%, 56%,0.2);
+                    p{
+                        color:hsl(39, 100%, 56%);
+                    }
+                }
+                .box3{
+                    background-color: hsl(166, 100%, 37%,0.2);
+                    p{
+                        color:hsl(166, 100%, 37%);
+                    }
+                }
+                .box4{
+                    background-color: hsl(234, 85%, 45%,0.2);
+                    p{
+                        color:hsl(234, 85%, 45%);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,179 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: transparent;
+}
+body main {
+  background-color: transparent;
+}
+body main .container {
+  display: flex;
+  background-color: transparent;
+  border-radius: 35px;
+  overflow: hidden;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+body main .container .section1.section2 {
+  display: flex;
+  flex-direction: column;
+}
+body main .container .section1 {
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  height: 29rem;
+  width: 20rem;
+  border-radius: 35px;
+  text-align: center;
+  overflow: hidden;
+}
+body main .container .section1 p {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+body main .container .section1 :nth-child(1) {
+  color: hsl(241, 100%, 89%);
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  font-size: 23px;
+}
+body main .container .section1 :nth-child(3) {
+  color: hsl(221, 100%, 96%);
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 1.6rem;
+}
+body main .container .section1 :nth-child(4) {
+  color: hsl(241, 100%, 89%);
+  font-weight: 500;
+  margin-top: -1.5rem;
+}
+body main .container .section1 .circle {
+  margin-left: 4.3rem;
+  margin-top: 1.7rem;
+  text-align: center;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
+}
+body main .container .section1 .circle :nth-child(1) {
+  color: hsl(221, 100%, 96%);
+  font-size: 70px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .container .section1 .circle :nth-child(1) span {
+  font-size: 15px;
+  margin-top: -0.7rem;
+  letter-spacing: 0px;
+  font-weight: 500;
+  color: hsl(241, 100%, 89%);
+}
+body main .container .section2 {
+  background-color: white;
+  height: 31rem;
+  width: 22rem;
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+}
+body main .container .section2 button {
+  width: 16rem;
+  height: 3.25rem;
+  border-radius: 50px;
+  margin-top: 1rem;
+  background-color: hsl(241, 72%, 46%);
+  cursor: pointer;
+  color: white;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+  border: 1px solid transparent;
+  outline: none;
+  transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+body main .container .section2 .header {
+  font-family: "Hanken Grotesk", sans-serif;
+  text-align: left;
+  float: left;
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: -10rem;
+}
+body main .container .section2 .box1, body main .container .section2 .box2, body main .container .section2 .box3, body main .container .section2 .box4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 14rem;
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 0rem 1rem;
+  border-radius: 7px;
+}
+body main .container .section2 .box1 :nth-child(1), body main .container .section2 .box2 :nth-child(1), body main .container .section2 .box3 :nth-child(1), body main .container .section2 .box4 :nth-child(1) {
+  color: gray;
+  margin-left: 0.1rem;
+  font-weight: 500;
+}
+body main .container .section2 .box1 p, body main .container .section2 .box2 p, body main .container .section2 .box3 p, body main .container .section2 .box4 p {
+  font-weight: 700;
+}
+body main .container .section2 .box2, body main .container .section2 .box3, body main .container .section2 .box1 {
+  margin-bottom: 1rem;
+}
+body main .container .section2 .cont1, body main .container .section2 .cont2, body main .container .section2 .cont3, body main .container .section2 .cont4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body main .container .section2 .cont1 p, body main .container .section2 .cont2 p, body main .container .section2 .cont3 p, body main .container .section2 .cont4 p {
+  margin-left: 0.5rem;
+}
+body main .container .section2 .cont1 p {
+  color: hsl(0, 100%, 67%);
+}
+body main .container .section2 .cont2 p {
+  color: hsl(39, 100%, 56%);
+}
+body main .container .section2 .cont3 p {
+  color: hsl(166, 100%, 37%);
+}
+body main .container .section2 .cont4 p {
+  color: hsl(234, 85%, 45%);
+}
+body main .container .section2 .box1 {
+  background-color: hsla(0, 100%, 67%, 0.2);
+}
+body main .container .section2 .box1 p {
+  color: hsl(0, 100%, 67%);
+}
+body main .container .section2 .box2 {
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+body main .container .section2 .box2 p {
+  color: hsl(39, 100%, 56%);
+}
+body main .container .section2 .box3 {
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+body main .container .section2 .box3 p {
+  color: hsl(166, 100%, 37%);
+}
+body main .container .section2 .box4 {
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+body main .container .section2 .box4 p {
+  color: hsl(234, 85%, 45%);
+}/*# sourceMappingURL=global.css.map */
